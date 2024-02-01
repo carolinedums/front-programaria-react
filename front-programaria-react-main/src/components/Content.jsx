@@ -14,7 +14,7 @@ export function Content() {
   const [citacao, setCitacao] = useState('')
   const [imagem, setImagem] = useState('')
   const [success, setSuccess] = useState(false)
-  const baseURL = 'http://localhost:3333/mulheres'
+  const baseURL = 'http://beck-end-7ys1.onrender.com/mulheres'
 
   useEffect(() => {
     async function getData() {
