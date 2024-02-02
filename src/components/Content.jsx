@@ -52,9 +52,7 @@ export function Content() {
         minibio: minibio,
         imagem: imagem
       })
-      console.log("chegou até aqui 1")
       const response = await Axios.get(baseURL)
-      console.log("chegou até aqui 2", response)
 
       setRepositories(response.data)
     }
